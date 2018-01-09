@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 7, 2017 12:40:22 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.jwt.hibernate.TeamLead" table="TEAMLEAD">
+        <id name="mid" type="java.lang.String">
+            <column name="MID" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="track" type="java.lang.String">
+            <column name="TRACK" />
+        </property>
+    </class>
+</hibernate-mapping>
